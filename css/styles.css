@@ -14,7 +14,7 @@ ul {
 /*-------------------------HEADER--------------------------*/
 
 .header-logo-italic {
-  color: #4d5ae5;
+  color: #2e2f42;
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-style: normal;
@@ -24,7 +24,7 @@ ul {
   text-transform: uppercase;
 }
 .header-novigation-logo {
-  color: #2e2f42;
+  color: #4d5ae5;
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-style: normal;
@@ -48,6 +48,10 @@ ul {
   color: #404bbf;
 }
 
+address {
+  font-style: normal;
+}
+
 .header-address-contact {
   color: #434455;
   font-style: normal;
@@ -63,10 +67,6 @@ ul {
   color: #404bbf;
 }
 
-.hero-title {
-  line-height: 1.07;
-}
-
 /*--------------------------------------------------------------------------*/
 
 /*----------------------------HERO------------------------------------------*/
@@ -76,8 +76,10 @@ ul {
   letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
+  line-height: 1.07;
 }
-.hero-title {
+
+.hero {
   background-color: #2e2f42;
 }
 .hero-order-btn:hover {
@@ -123,7 +125,7 @@ button {
 /*-------------------------------OUR TEAM----------------------------------------*/
 
 .team {
-  background-color: #ffffff;
+  background-color: #f4f4fd;
 }
 .team-title {
   color: #2e2f42;
@@ -146,6 +148,9 @@ button {
   font-size: 16px;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
+}
+.team-title-list {
+  background-color: #ffffff;
 }
 /*----------------------------------------------------------------------------------------*/
 
@@ -170,7 +175,7 @@ button {
   background-color: #2e2f42;
 }
 .footer-logo-italic {
-  color: #4d5ae5;
+  color: #f4f4fd;
   font-family: Raleway;
   font-size: 18px;
   font-weight: 700;
@@ -179,7 +184,7 @@ button {
   text-transform: uppercase;
 }
 .footer-logo {
-  color: #f4f4fd;
+  color: #4d5ae5;
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 700;
